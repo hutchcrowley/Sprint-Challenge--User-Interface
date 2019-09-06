@@ -55,6 +55,9 @@ html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
 }
+body {
+    margin-top: 20vh;
+}
 
 h1, h2, h3, h4, h5 {
     font-size: 18px;
@@ -66,6 +69,49 @@ p {
     line-height: 1.4;
 }
 
+header {
+  display: inline;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+header nav {
+    background-color: white;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin-bottom: 2%;
+    height: 20vh;
+}
+
+header nav a {
+
+    margin-top: 2%;
+    margin-bottom: 2%;
+    text-decoration: none;
+    justify-self: space-around;
+    align-self: center;
+    color: black;
+
+}
+
+.logo {
+    margin-top: 2%;
+    height: auto;
+    margin-bottom: 2%;
+    align-self: center;
+}
+
+.Jumbo {
+    justify-self: center;
+    margin-left: 6%;
+    height: 25vh;
+    width: 90%;
+    margin-bottom: 2vh;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -74,7 +120,8 @@ p {
 .top-content {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    width: 100%;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
@@ -86,6 +133,7 @@ p {
 }
 
 .middle-content {
+    width:100%;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
@@ -101,7 +149,7 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9, .box10 {
     width: 12.5%;
     height: 100px;
     background: black;
@@ -126,9 +174,118 @@ p {
     padding-right: 0;
 }
 
+/* CSS for about page starts here */
+
+.top-content-about {
+    display: flex;
+    flex-flow: row wrap;
+    margin-left: 8vw;
+    margin-right: 8vw;
+    margin-bottom: 2vh;
+    height: 15vh;
+    border-bottom: 1px dashed black;
+
+
+}
+
+.text-container-about {
+    width: 85vw;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: left;
+    margin-left: 2vw;
+    margin-top: 1vw;
+    margin-right: 1vw;
+    margin-bottom: 2vh;
+
+}
+
+.middle-content-about {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.middle-content-about .box {
+    width: 40%;
+    height: 100%;
+    margin-top: 4%;
+    margin-bottom: 1vh;
+    margin-left: 9vw;
+    padding-bottom: 4%;
+    padding-right: 10vw;
+    border-bottom: 2px dotted black;
+}
+
+.content-box-img {
+
+    margin-bottom: 4%;
+}
+
+button {
+    margin-top: 4%;
+    height: 4vh;
+    width: 10vw;
+    border: 3px solid black;
+    border-radius: 8px;
+    background-color: white;
+    font-size: 15px;
+}
+
+.bottom-content-about {
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 4vh;
+    margin-left: 10vw;
+    margin-bottom: 2%;
+    width: 80vw;
+}
+
+.box1 {
+    background-color: teal;
+}
+
+.box2 {
+    background-color: gold;
+}
+
+.box3 {
+    background-color: cadetblue;
+}
+
+.box4 {
+    background-color: coral;
+}
+
+.box5 {
+    background-color: crimson;
+}
+
+.box6 {
+    background-color: forestgreen;
+}
+
+.box7 {
+    background-color: darkorchid;
+}
+
+.box8 {
+    background-color: hotpink;
+}   
+
+.box9 {
+    background-color: indigo;
+}
+
+.box10 {
+    background-color: dodgerblue;
+}
+
+
 footer {
-    width: 100%;
+    width: 85%;
     background: black;
+    margin-left: 10vw;
 }
 
 footer nav {
